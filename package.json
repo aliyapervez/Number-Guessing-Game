@@ -1,0 +1,23 @@
+{
+  "name": "@aliyapervez/number-guessing-game",
+  "version": "1.0.3",
+  "description": "this is CLI based Number Guessing Game",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aliya Pervez",
+  "license": "MIT",
+  "dependencies": {
+    "@aliyapervez/number-guessing-game": "^1.0.3",
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
