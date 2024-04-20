@@ -12,7 +12,7 @@ import inquirer from "inquirer";
 const randomNumber =Math.floor(Math.random() *10 + 1);
 // console.log(randomNumber);
 
-console.log("Welcom To Number Guessing Game");
+console.log("Welcome To Number Guessing Game");
 
 
 const answers = await inquirer.prompt([
